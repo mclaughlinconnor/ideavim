@@ -81,6 +81,15 @@
       </aliases>
     </vimExtension>
 
+    <vimExtension implementation="com.maddyhome.idea.vim.extension.vim_switch.SwitchExtension"
+                  name="vim_switch">
+      <aliases>
+        <alias name="https://github.com/AndrewRadev/switch.vim"/>
+        <alias name="AndrewRadev/switch.vim"/>
+        <alias name="switch.vim"/>
+      </aliases>
+    </vimExtension>
+
     <vimExtension implementation="com.maddyhome.idea.vim.extension.nerdtree.NerdTree" name="NERDTree">
       <aliases>
         <alias name="https://github.com/preservim/nerdtree"/>
